@@ -1,4 +1,7 @@
 html {
-  border: 3px solid black;
   font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  border: 1px solid black;
 }
