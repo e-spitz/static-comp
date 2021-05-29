@@ -5,3 +5,14 @@ html {
 * {
   border: 1px solid black;
 }
+
+.cactus-line-container {
+  width: 15%;
+  height: 40%;
+  padding-bottom: 1vw;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
