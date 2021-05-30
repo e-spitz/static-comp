@@ -6,13 +6,21 @@ html {
   border: 1px solid black;
 }
 
-.cactus-line-container {
-  width: 15%;
-  height: 40%;
-  padding-bottom: 1vw;
-}
-
 img {
   height: 100%;
   width: 100%;
+}
+
+.user-logo-container {
+  width: 2%;
+  height: 2%;
+  padding: 0;
+  margin: 0;
+}
+
+.cactus-line-container {
+  width: 10%;
+  height: 30%;
+  padding: 0;
+  margin: 0;
 }
