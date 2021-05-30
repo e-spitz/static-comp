@@ -1,3 +1,10 @@
+/* independence blue/grey #555B6E */
+/* morning blue #89B0AE */
+/* powder blue #BEE3DB */
+/* cultured white #FAF9F9 */
+/* apricot #FFD6BA */
+
+
 /* RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -54,23 +61,24 @@ img {
   width: 100%;
 }
 
-.user-logo-container {
+.user-logo-container,
+.cactus-logo-container,
+.download-logo-container {
   width: 2%;
   height: 2%;
-  padding: 0;
-  margin: 0;
 }
 
-.cactus-line-container {
-  width: 10%;
-  height: 30%;
-  padding: 0;
-  margin: 0;
+.reviews-logo-container {
+  width: 1.5%;
+  height: 1.5%;
+}
+
+.cactus-sun-container {
+  width: 8%;
+  height: 25%;
 }
 
 .card-img-container {
   width: 4%;
   height: 4%;
-  margin: 0;
-  padding: 0;
 }
