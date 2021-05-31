@@ -9,7 +9,7 @@ This solo project ended up being much trickier than expected! The goal of the ch
 <img src="https://frontend.turing.edu/assets/images/static-comp-challenge-2.jpg" width="800" alt="Original Comp">
 
 ## My Duplicated Comp  
-<img src="https://imgur.com/a/mHSjfLA" width="800" alt="Static Comp">
+<img src="assets/vyxoeMN - Imgur.png" width="800" alt="Static Comp">
 
 ## Screen Responsiveness Examples
 # Iphone Version
