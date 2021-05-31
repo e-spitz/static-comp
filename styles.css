@@ -40,6 +40,7 @@ h2 {
   margin-top: .5em;
   margin-bottom: .5em;
   font-size: 2em;
+  margin-left: .75em;
 }
 
 ul > li {
@@ -81,7 +82,7 @@ li:hover,
 .main-title {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: -5em;
+  margin-bottom: -4em;
   margin-right: 1em;
 }
 
@@ -123,6 +124,8 @@ li:hover,
   padding: .5em;
   grid-template-columns: repeat(4, 1fr);
   gap: 1em;
+  width: 96%;
+  height: 100%;
 }
 
 .card {
@@ -138,7 +141,7 @@ li:hover,
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .poked-count {
@@ -165,10 +168,6 @@ li:hover,
   margin-bottom: -.5em;
 }
 
-.publish, .title {
-
-}
-
 .published-views-container {
   display: flex;
   flex-direction: column;
@@ -176,8 +175,9 @@ li:hover,
 
 .link-box {
   background-color: #BEE3DB;
-  margin: 1.4em 0;
+  margin: 1em 0;
   padding: 0.7em;
-  font-size: 0.8em;
+  font-size: .9em;
   border-radius: .5em;
+  text-align: center;
 }
