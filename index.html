@@ -1,40 +1,74 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Static Comp</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/10ffbe374d.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
   </head>
   <body>
     <header>
-      <p class="user-login">user login ⟱</p>
+      <div class="user-container">
+        <i class="fas fa-user"></i>
+        <p class="user-login">user login</p>
+        <i class="fas fa-caret-down"></i>
+      </div>
       <div class="main-title">
-        <img class="cactus-sun" src="assets/cactus-sun.png" alt="cactus-sun-image">
-        <h1>poke posters</h1>
+          <h1>poke posters<i class="fas fa-sun"></i></h1>
       </div>
       <ul class="nav-links">
-        <li>most poked</li>
-        <li>poked reviews</li>
-        <li>create your own</li>
+        <li><i class="fas fa-thumbtack"></i>most poked</li>
+        <li><i class="fas fa-comment"></i>poked reviews</li>
+        <li><i class="fas fa-plus-square"></i>create your own</li>
       </ul>
     </header>
     <main>
       <h2>browse posters</h2>
       <section class="cards">
         <section class="card">
-            <img class="card-img" src="assets/cactus.png" alt="circle-cactus-logo">
-          <div class="poked-count">
-            <p class="pokes">pokes</p>
-            <p class="poked-num">394</p>
-          </div>
-          <section class="card-body card1">
-            <div class="poster-container">
-              <p class="poster-title">cactus wall</p>
-              <p class="artist">nyugen dang hoang nhu</p>
+          <div class="card-top">
+            <img class="card-img" src="assets/tallcacti.jpg" alt="cacti-against-wall">
+            <div class="overlay-container">
+              <button><i class="fas fa-share"></i></button>
+              <div class="overlay-text">
+                <p class="pokes">pokes</p>
+                <p class="poked-num">394</p>
+              </div>
             </div>
+          </div>
+          <section class="card-body">
+            <p class="poster-title">"cactus wall"</p>
+            <p class="artist">by: nyugen dang hoang nhu</p>
+            <div class="link-box">https://unsplash.com/photos/aqW-86jhtII</div>
+            <div class="published-views-container">
+              <p class="publish">published:</p>
+              <p class="date-num">5.10.2020</p>
+              <p class="title">views</p>
+              <p class="views-num">1,157,418</p>
+            </div>
+          </section>
+        </section>
+
+
+        <section class="card">
+          <div class="card-top">
+            <img class="card-img" src="assets/shortcactus.jpg" alt="cacti-against-wall">
+            <div class="overlay-container">
+              <button><i class="fas fa-share"></i></button>
+              <div class="overlay-text">
+                <p class="pokes">pokes</p>
+                <p class="poked-num">394</p>
+              </div>
+            </div>
+          </div>
+          <section class="card-body">
+            <p class="poster-title">"cactus wall"</p>
+            <p class="artist">by: nyugen dang hoang nhu</p>
             <div class="link-box">https://unsplash.com/photos/aqW-86jhtII</div>
             <div class="published-views-container">
               <p class="publish">published:</p>
@@ -46,6 +80,149 @@
         </section>
 
         <section class="card">
+          <div class="card-top">
+            <img class="card-img" src="assets/tallcacti.jpg" alt="cacti-against-wall">
+            <div class="overlay-container">
+              <button><i class="fas fa-share"></i></button>
+              <div class="overlay-text">
+                <p class="pokes">pokes</p>
+                <p class="poked-num">394</p>
+              </div>
+            </div>
+          </div>
+          <section class="card-body">
+            <p class="poster-title">"cactus wall"</p>
+            <p class="artist">by: nyugen dang hoang nhu</p>
+            <div class="link-box">https://unsplash.com/photos/aqW-86jhtII</div>
+            <div class="published-views-container">
+              <p class="publish">published:</p>
+              <p class="date-num">5.10.2020</p>
+              <p class="title">views</p>
+              <p class="views-num">1,157,418</p>
+            </div>
+          </section>
+        </section>
+
+        <section class="card">
+          <div class="card-top">
+            <img class="card-img" src="assets/tallcacti.jpg" alt="cacti-against-wall">
+            <div class="overlay-container">
+              <button><i class="fas fa-share"></i></button>
+              <div class="overlay-text">
+                <p class="pokes">pokes</p>
+                <p class="poked-num">394</p>
+              </div>
+            </div>
+          </div>
+          <section class="card-body">
+            <p class="poster-title">"cactus wall"</p>
+            <p class="artist">by: nyugen dang hoang nhu</p>
+            <div class="link-box">https://unsplash.com/photos/aqW-86jhtII</div>
+            <div class="published-views-container">
+              <p class="publish">published:</p>
+              <p class="date-num">5.10.2020</p>
+              <p class="title">views</p>
+              <p class="views-num">1,157,418</p>
+            </div>
+          </section>
+        </section>
+
+        <section class="card">
+          <div class="card-top">
+            <img class="card-img" src="assets/tallcacti.jpg" alt="cacti-against-wall">
+            <div class="overlay-container">
+              <button><i class="fas fa-share"></i></button>
+              <div class="overlay-text">
+                <p class="pokes">pokes</p>
+                <p class="poked-num">394</p>
+              </div>
+            </div>
+          </div>
+          <section class="card-body">
+            <p class="poster-title">"cactus wall"</p>
+            <p class="artist">by: nyugen dang hoang nhu</p>
+            <div class="link-box">https://unsplash.com/photos/aqW-86jhtII</div>
+            <div class="published-views-container">
+              <p class="publish">published:</p>
+              <p class="date-num">5.10.2020</p>
+              <p class="title">views</p>
+              <p class="views-num">1,157,418</p>
+            </div>
+          </section>
+        </section>
+
+        <section class="card">
+          <div class="card-top">
+            <img class="card-img" src="assets/tallcacti.jpg" alt="cacti-against-wall">
+            <div class="overlay-container">
+              <button><i class="fas fa-share"></i></button>
+              <div class="overlay-text">
+                <p class="pokes">pokes</p>
+                <p class="poked-num">394</p>
+              </div>
+            </div>
+          </div>
+          <section class="card-body">
+            <p class="poster-title">"cactus wall"</p>
+            <p class="artist">by: nyugen dang hoang nhu</p>
+            <div class="link-box">https://unsplash.com/photos/aqW-86jhtII</div>
+            <div class="published-views-container">
+              <p class="publish">published:</p>
+              <p class="date-num">5.10.2020</p>
+              <p class="title">views</p>
+              <p class="views-num">1,157,418</p>
+            </div>
+          </section>
+        </section>
+
+        <section class="card">
+          <div class="card-top">
+            <img class="card-img" src="assets/tallcacti.jpg" alt="cacti-against-wall">
+            <div class="overlay-container">
+              <button><i class="fas fa-share"></i></button>
+              <div class="overlay-text">
+                <p class="pokes">pokes</p>
+                <p class="poked-num">394</p>
+              </div>
+            </div>
+          </div>
+          <section class="card-body">
+            <p class="poster-title">"cactus wall"</p>
+            <p class="artist">by: nyugen dang hoang nhu</p>
+            <div class="link-box">https://unsplash.com/photos/aqW-86jhtII</div>
+            <div class="published-views-container">
+              <p class="publish">published:</p>
+              <p class="date-num">5.10.2020</p>
+              <p class="title">views</p>
+              <p class="views-num">1,157,418</p>
+            </div>
+          </section>
+        </section>
+
+        <section class="card">
+          <div class="card-top">
+            <img class="card-img" src="assets/tallcacti.jpg" alt="cacti-against-wall">
+            <div class="overlay-container">
+              <button><i class="fas fa-share"></i></button>
+              <div class="overlay-text">
+                <p class="pokes">pokes</p>
+                <p class="poked-num">394</p>
+              </div>
+            </div>
+          </div>
+          <section class="card-body">
+            <p class="poster-title">"cactus wall"</p>
+            <p class="artist">by: nyugen dang hoang nhu</p>
+            <div class="link-box">https://unsplash.com/photos/aqW-86jhtII</div>
+            <div class="published-views-container">
+              <p class="publish">published:</p>
+              <p class="date-num">5.10.2020</p>
+              <p class="title">views</p>
+              <p class="views-num">1,157,418</p>
+            </div>
+          </section>
+        </section>
+        <!-- <section class="card">
             <img class="card-img" src="assets/cactus.png" alt="circle-cactus-logo">
           <div class="poked-count">
               <p class="pokes">pokes</p>
@@ -191,13 +368,13 @@
                   <p class="views-num">14,157,024</p>
                 </div>
               </section>
-            </section>
+            </section> -->
           </section>
+          <footer>
+            <a href='https://pngtree.com/so/graphic'>graphic png from pngtree.com</a>
+            <br>
+            <a href='https://pngtree.com/so/icon'>icon png from pngtree.com</a>
+          </footer>
     </main>
   </body>
-  <footer>
-    <a href='https://pngtree.com/so/graphic'>graphic png from pngtree.com</a>
-    <br>
-    <a href='https://pngtree.com/so/icon'>icon png from pngtree.com</a>
-  </footer>
 </html>
